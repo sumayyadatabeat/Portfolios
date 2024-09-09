@@ -22,11 +22,11 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Sumayya",
                 1000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Software Developer",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -63,11 +63,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[230px] lg:w-[400px] lg:h-[400px] relative ">
             <Image
-              src="/images/hero-image.png"
+              src="/images/summmmmi.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
               width={300}
               height={300}
             />
